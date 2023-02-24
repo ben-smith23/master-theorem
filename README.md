@@ -82,29 +82,29 @@ The purpose of this lab is to both get you familiar with using these non-github 
 
         |                | `binary_search`           | `trinary_search`      |
         | -------------- | ------------------------- | --------------------- | 
-        | `n=2**0`       |                           |                       |
-        | `n=2**1`       |                           |                       |
-        | `n=2**2`       |                           |                       |
-        | `n=2**3`       |                           |                       |
-        | `n=2**4`       |                           |                       |
-        | `n=2**5`       |                           |                       |
-        | `n=2**6`       |                           |                       |
-        | `n=2**7`       |                           |                       |
-        | `n=2**8`       |                           |                       |
-        | `n=2**9`       |                           |                       |
-        | `n=2**10`      |                           |                       |
-        | `n=2**11`      |                           |                       |
-        | `n=2**12`      |                           |                       |
-        | `n=2**13`      |                           |                       |
-        | `n=2**14`      |                           |                       |
-        | `n=2**15`      |                           |                       |
-        | `n=2**16`      |                           |                       |
-        | `n=2**17`      |                           |                       |
-        | `n=2**18`      |                           |                       |
-        | `n=2**19`      |                           |                       |
-        | `n=2**20`      |                           |                       |
-        | `n=2**21`      |                           |                       |
-        | `n=2**22`      |                           |                       |
+        | `n=2**0`       |     0.802 usec            |       1.79 usec                |
+        | `n=2**1`       |     1.55 usec                      |   3.26 usec                   |
+        | `n=2**2`       |     2.24 usec                      |   3.44 usec                     |
+        | `n=2**3`       |     2.63 usec                      |   3.15 usec                     |
+        | `n=2**4`       |     3.17 usec                      |   0.581 usec                     |
+        | `n=2**5`       |     3.68 usec                      |   3.19 usec                     |
+        | `n=2**6`       |     4.29 usec                      |   6.93 usec                     |
+        | `n=2**7`       |     4.76 usec                      |   6.14 usec                     |
+        | `n=2**8`       |     5.36 usec                      |   8.1 usec                     |
+        | `n=2**9`       |     5.72 usec                      |   5.06 usec                     |
+        | `n=2**10`      |     6.51 usec                      |   7.54 usec                     |
+        | `n=2**11`      |     6.95 usec                      |   9.22 usec                     |
+        | `n=2**12`      |     7.12 usec                      |   9.54 usec                     |
+        | `n=2**13`      |     7.55 usec                      |   9.8 usec                     |
+        | `n=2**14`      |     8.1 usec                      |    12.8 usec                    |
+        | `n=2**15`      |     8.55 usec                      |    12.9 usec                    |
+        | `n=2**16`      |     9.13 usec                      |    14.1 usec                    |
+        | `n=2**17`      |     10.1 usec                      |    13.5 usec                    |
+        | `n=2**18`      |     10.9 usec                      |    15.5 usec                    |
+        | `n=2**19`      |     11.5 usec                      |    13.1 usec                    |
+        | `n=2**20`      |     12.5 usec                      |    18 usec                    |
+        | `n=2**21`      |     13.9 usec                      |    18.9 usec                    |
+        | `n=2**22`      |     12.8 usec                      |    20.8 usec                    |
 
 
 1. Use the master theorem to solve the following recurrence relations,
