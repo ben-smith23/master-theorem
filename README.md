@@ -119,9 +119,9 @@ The purpose of this lab is to both get you familiar with using these non-github 
     | T(n) = 2T(n/2) + 1   | $\Theta(     n               )$ | runtime for [finding the median of an unsorted list](https://en.wikipedia.org/wiki/Quickselect) |
     | T(n) = 2T(n/2) + n   | $\Theta(       nlogn             )$ | runtime of merge sort                     |
     | T(n) = 3T(n/3) + n   | $\Theta(          nlogn          )$ | runtime of a trinary merge sort           |
-    | T(n) = T(n/2) + n^2  | $\Theta(                    )$ |                                           |
-    | T(n) = 2T(n/2) + n^2 | $\Theta(                    )$ |                                           |
-    | T(n) = 3T(n/2) + n^2 | $\Theta(                    )$ |                                           |
+    | T(n) = T(n/2) + n^2  | $\Theta(       n^2             )$ |                                           |
+    | T(n) = 2T(n/2) + n^2 | $\Theta(      n^2              )$ |                                           |
+    | T(n) = 3T(n/2) + n^2 | $\Theta(       n^2             )$ |                                           |
     | T(n) = 3T(n/2) + n   | $\Theta(                    )$ | runtime of [Karatsuba's integer multiplication algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm); HINT: Case 1 |
     | T(n) = 7T(n/2) + n^2 | $\Theta(                    )$ | runtime of [Strassen's matrix multiplication algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm) |
 
